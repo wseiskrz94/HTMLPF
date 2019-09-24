@@ -1,0 +1,22 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div {
+    background: lightsalmon;
+    margin: 10px;
+}
+p{
+    background: green;
+}
+#ostatni {
+    padding: 100px;
+}
+.duzy{
+    font-size: 30px; 
+}
+.niebieski{
+    color: blue;
+}
