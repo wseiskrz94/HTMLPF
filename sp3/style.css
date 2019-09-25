@@ -3,11 +3,32 @@ body {
 }
 main {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header {
     height: 150px;
     background: lightblue;
+    display: flex;
+    justify-content: space-between;
 }
+/* Każdy ul wewnącz każdego nav
+nav ul {}
+ */
+ nav {
+     width: 70%;
+ }
+nav > ul {
+    /* zmiana punków listy */
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+}   
 section {
     display: flex;
     /* flex-direction: column; */
