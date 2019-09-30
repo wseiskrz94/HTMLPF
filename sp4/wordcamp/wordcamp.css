@@ -1,0 +1,28 @@
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "glogo"
+        "gdate"
+        "gnews"
+        "gnav"
+        "gcontact"
+}
+
+#logo {
+    grid-area: glogo;
+}
+#date {
+    grid-area: gdate;
+}
+#news {
+    grid-area: gnews;
+}
+nav {
+    grid-area: gnav;
+}
+#contact {
+    grid-area: gcontact;
+}
