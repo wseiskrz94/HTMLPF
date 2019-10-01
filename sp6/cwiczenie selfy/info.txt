@@ -1,0 +1,3 @@
+adres strony: http://make-lemonade.co/themes/selfy/index.html
+czcionka podstawowa: robotoregular
+czcionka menu: robotobold_condensed
